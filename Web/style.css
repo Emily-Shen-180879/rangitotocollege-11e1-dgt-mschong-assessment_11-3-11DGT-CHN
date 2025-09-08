@@ -15,7 +15,7 @@ body {
 
 .banner { /* this will style the navigation */
     display: grid;
-    grid-template-columns: auto auto auto;
+    grid-template-columns: auto auto auto auto;
     background-color: #162140;
     padding: 10px;
     text-align: center;
@@ -25,4 +25,20 @@ a{
     color: white;
     text-decoration: none;
     font-weight: bold;
+}
+
+.intro{
+padding: 30px;
+font-size: 30px;
+text-align: center;
+margin-top: 50px;
+margin-left: 800px;
+width: 600px;
+font-weight: bold;
+}
+
+p{
+padding: 10px;
+font-size: 18px;
+font-weight: normal;
 }
