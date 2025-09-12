@@ -84,6 +84,28 @@ a{ /* styles the links */
     margin-top: 50px;
 }
 
+.idk{
+    padding: 30px;
+    font-size: 30px;
+    background-color: #1f305c;
+    border-radius: 10px;
+    width: 700px;
+    margin-left: 750px;; 
+    margin-top: 50px;
+    font-weight: bold;
+}
+
+.twa{
+    padding: 30px;
+    font-size: 30px;
+    background-color: #1f305c;
+    border-radius: 10px;
+    width: 700px;
+    margin-right: 750px; 
+    margin-top: 50px;
+    font-weight: bold;
+}
+
 p{ /* styles paragraphs */
     padding: 10px;
     font-size: 18px;
