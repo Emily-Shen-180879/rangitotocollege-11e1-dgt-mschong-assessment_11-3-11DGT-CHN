@@ -1,28 +1,28 @@
 body {
-    background-color: #42517d; /* makes the background  dark blue */
+    background-color: #6e687e; /* makes the background  dark blue */
     color: white;
 }
 
-.bob{
+.bob{  /* the header */
     display: grid;
-    background-color: #162140;
+    background-color: #23293a;
     font-size: 50px;
     text-align: center;
     padding: 20px;
-    color: black;
+    color: #ece9cd;
     font-weight: bold;
 }
 
 .banner { /* this will style the navigation */
     display: grid;
     grid-template-columns: auto auto auto auto;
-    background-color: #162140;
+    background-color: #23293a;
     padding: 10px;
     text-align: center;
 }
 
 a{ /* styles the links */
-    color: white;
+    color: #f0edd7;
     text-decoration: none;
     font-weight: bold;
 }
@@ -32,97 +32,106 @@ a{ /* styles the links */
     font-size: 30px;
     text-align: center;
     margin-top: 50px;
-    margin-left: 750px;
-    width: 700px;
+    margin-left: 950px;
+    width: 800px;
     font-weight: bold;
-    background-color: #1f305c;
+    background-color: #394153;
     border-radius: 10px;
+    color: #ece9cd;
 }
 
-.history{
+.history{ /* history paragraph */
     padding: 30px;
     font-size: 30px;
     text-align: center;
     margin-top: 50px;
-    margin-left: 750px;
-    width: 700px;
+    margin-left: 950px;
+    width: 800px;
     font-weight: bold;
-    background-color: #1f305c;
+    background-color: #394153;
     border-radius: 10px;
+    color: #ece9cd;
 }
 
-.knowledge{
+.knowledge{ /* basic knowledge */
     padding: 30px;
     font-size: 30px;
-    background-color: #1f305c;
+    background-color: #394153;
     border-radius: 10px;
     width: 700px;
     margin: auto; /* makes the div centered */
     margin-top: 50px;
     font-weight: bold;
+    color: #ece9cd;
 }
 
 .tutorials{ /* i literally just copy an pasted the knowledge class */
     padding: 30px;
     font-size: 30px;
-    background-color: #1f305c;
+    background-color: #394153;
     border-radius: 10px;
     width: 700px;
     margin: auto; 
     margin-top: 50px;
     font-weight: bold;
+    color: #ece9cd;
 }
 
 .footer{ /* this is the footer */
     display: grid;
-    background-color: #162140;
+    background-color: #23293a;
     text-align: left;
     padding: 20px;
-    color: black;
+    color: #ece9cd;
     font-weight: bold;
     grid-template-columns: auto auto auto;
     margin-top: 50px;
 }
 
-.idk{
+.idk{ /* some like links to other sites */
     padding: 30px;
     font-size: 30px;
-    background-color: #1f305c;
+    background-color: #394153;
     border-radius: 10px;
     width: 700px;
-    margin-left: 750px;; 
+    margin-left: 950px;
     margin-top: 50px;
     font-weight: bold;
+    color: #ece9cd;
 }
 
-.twa{
+.twa{ /* more links to sites */
     padding: 30px;
     font-size: 30px;
-    background-color: #1f305c;
+    background-color: #394153;
     border-radius: 10px;
     width: 700px;
-    margin-right: 750px; 
+    margin-left: 80px;
     margin-top: 50px;
     font-weight: bold;
+    color: #ece9cd;
 }
 
 p{ /* styles paragraphs */
     padding: 10px;
     font-size: 18px;
     font-weight: normal;
+    color: #f0edd7;
 }
 
 h1{
    font-size: 25px;
    font-weight: bold;
+   color: #ece9cd;
 }
 
 h2{
     font-size: 22px;
     font-weight: bold;
     margin-left: 10px;
-    background-color: #162140;
+    background-color: #394153;
     border-radius: 10px;
     width: fit-content; /* makes the width fit the text */
     padding: 5px;
+    color: #ece9cd;
 }
